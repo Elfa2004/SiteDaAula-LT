@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /*
+            selector {
+                propriedade1: valor1;
+                propriedade2: valor2;
+                ...
+                peopriedaden: valorn;
+                exemplo:
+                backgroud-colar: blue;
+                
+                }
+            selector 2 {
+                propriedade1: valor1;
+                propriedade2: valor2;
+                ...
+                peopriedaden: valorn;
+                exemplo:
+                backgroud-colar: black;     
+
+                }    
+        */
+        *{}
+    </style>
+</head>
+<body>
+    <!--
+    <p>
+        Essa é a <b>primeira</b> linha do parágrafo. Bla, Bla, Bla, Bla...</br>
+        Essa é a <i>segunda</i> linha do parágrafo. Bla, Bla, Bla, Bla...</br>
+        Essa é a <u>terceira</u> linha do parágrafo. Bla, Bla, Bla, Bla...</br>
+        Essa é a <b><i>quarta</i></b> linha do parágrafo. Bla, Bla, Bla, Bla...</br>
+        Essa é a <u><b><i>quinta</i></b></u> linha do parágrafo. Bla, Bla, Bla, Bla...</br>
+    </p>
+    <figure>
+        <img src="https://sempreupdate.com.br/wp-content/uploads/2023/07/distribuicoes-linux-pc-antigo-420x280.jpeg" />
+        <figcaption>Figura 1<sup>a</sup>. Computador da década de 90.</figcaption>
+        <img src="arquivo.avif" width="600" height="400" />
+        <figcaption>Figura 1<sup>b</sup>. Computador da década de 80.</figcaption>
+        <figcaption>Figura 1. Computadores antigos.</figcaption>
+    </figure>
+    <a href="http://www.google.com.br">
+        <img src="botao.jpg" /><br/>
+    </a>
+    <video controls autoplay>
+        <source src="video.mp4" />
+    </video>
+    <iframe width="935" height="526" src="https://www.youtube.com/embed/zsJgO1yOGDY" title="A Totally Normal SE/30" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <table border = 1 cellspacing = 0 cellpadding = 10>
+        <tr>
+            <th colspan = 3>Media final dos alunos na primeira unidade</th>
+        </tr>
+        <tr>
+            <th rowspan="5">Banco de dados</th>
+            <th>Aluno</th>
+            <th>Média</th>
+        </tr>
+        <tr>
+            <td>João Paulo</td>
+            <td>8,0</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>9,0</td>
+        </tr>
+        <tr>
+            <td>José Batista</td>
+            <td>6,5</td>
+        </tr>
+        <tr>
+            <td>Antônio Valmir</td>
+            <td>8,0</td>
+        </tr>
+        <tr>
+            <th rowspan="5">Linguagem e Técnicas</th>
+            <th>Aluno</th>
+            <th>Média</th>
+        </tr>
+        <tr>
+            <td>João Paulo</td>
+            <td>8,0</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>9,0</td>
+        </tr>
+        <tr>
+            <td>José Batista</td>
+            <td>6,5</td>
+        </tr>
+        <tr>
+            <td>Antônio Valmir</td>
+            <td>8,0</td>
+        </tr>
+        <tr>
+            <th rowspan="5">Redes de computadores I</th>
+            <th>Aluno</th>
+            <th>Média</th>
+        </tr>
+        <tr>
+            <td>João Paulo</td>
+            <td>8,0</td>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>9,0</td>
+        </tr>
+        <tr>
+            <td>José Batista</td>
+            <td>6,5</td>
+        </tr>
+        <tr>
+            <td>Antônio Valmir</td>
+            <td>8,0</td>
+        </tr>
+    </table> -->
+    <form>
+        <label>Nome</label><br/>
+        <input required placeholder="Informe seu nome completo" type="text" size="60"/><br/><br/>
+        <label>Data de nascimento</label><br/>
+        <input required type="date" /><br/><br/>
+        <label>Idade</label><br/>
+        <input required placeholder="Informe sua idade" type="number" /><br/><br/>
+        <label>Gênero</label><br/>
+        <input type="radio" name="sexo" /><label>Masculino</label><br/>
+        <input type="radio" name="sexo" /><label>Feminino</label><br/>
+        <input type="radio" name="sexo" /><label>Outros</label><br/><br/>
+        <label>Interesses</label><br/>
+        <input type="checkbox" name="esporte" /><label>Esporte</label><br/>
+        <input type="checkbox" name="politica" /><label>Politica</label><br/>
+        <input type="checkbox" name="filmes" /><label>Filmes</label><br/>
+        <input type="checkbox" name="teatro" /><label>Teatro</label><br/>
+        <input type="checkbox" name="acadamia" /><label>Academia</label><br/><br/>
+        <label>Cidade</label><br/>
+        <select>
+            <option>-- Selecione uma cidade --</option>
+            <option>Salvador</option>
+            <option>Santo Amaro</option>
+            <option>Feira de Santana</option>
+            <option>Senhor do Bonfim</option>
+            <option>Juazeiro</option>
+        </select><br/><br/>
+        <label>Endereço</label><br/>
+        <textarea cols="60" rows="5"></textarea><br/><br/>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    <div>
+
+    </div>
+<script>
+    //Aqui está nosso codigo JavaScript
+
+    //Como colocar uma variavel en JavaScript.
+    //As variaves servem para guarda valores e também ler valores.
+    //<tipo> <nome da variavel> = [Valores]
+    //Exemplo na linguagem
+    //int x = 10, y;
+    //x = 20;
+    //y = 50;
+    //
+    //Em Js eu não declaro explicitamente o tipo
+    //O tipo de variavel em JavaScript (Js) é dinamico, depende do seu conteudo
+    //declarando a variavel js
+    //Existe duas formas de declarar uma variavel em Js (let ou var)
+    //Exemplo
+    //let x, y = 10.5; //y, neste momento, é um decimal
+    //x = 10; //x aqui, nester momento é um inteiro
+    //x = "Alexandre"; // x agora passou a ser uma string
+    //y = x; //coloque o valor de x em y - neste caso y pasa a ser 'Alexandre'
+    //x = 50; //O x passa a ser 50, mas y continua sendo "Alexandre"
+    //
+    //Para imprimir algo no console a gente pode usar o comando console.log
+    //exemplo:
+    //let name = "joana", idade = 25, cidade = "Salvador"
+    //console.log("Nome: "+ nome + "idade: " + idade + "cidade" + cidade);
+    //o comando acima vai apresentar no console a seguinte mensagem: Nome: Joana, Idade: 25, cidade: Salvador.
+    //
+    //Obtendo dados do usario
+
+    let nome, peso, altura, imc;
+    nome = prompt("Digite seu Nome: ")
+    peso = prompt("Digite seu Peso: ")
+    altura = prompt("Digite sua Altura: ")
+
+    imc = peso / (altura * altura);
+    alert(nome + ", seu imc é" + imc)
+    
+
+
+
+</script>
+
+</body>
+</html>
