@@ -55,7 +55,7 @@ html::-webkit-scrollbar-thumb{
 
 
 .header .logo img{
-    height: 4.5rem;
+    height: 6rem;
 }
 
 .header .navbar a{
@@ -155,27 +155,37 @@ body {
     flex-direction: column;
 
 }
-#background {
-    background-size:cover;
-    background-image: url('BL.jpg');
-    background-position: 100;
-    background-size: cover;
-    height: 1200px;
-    width: 1500px;
+
+.albuns{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    margin-bottom: 1px;
+    color: #000000;
 }
-.BotãoDeAlbum{
-    margin-top: 10rem;
-    background-color: #171616;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    cursor: pointer;
-    
+.albuns img {
+    display: block;
+    margin-top: 12rem;
+    margin-right: 13rem;
+    width: 200px;
+    height: 200px;
 }
-.BotãoDeAlbum:hover{
-    background-color: #0B245B;
+
+.albuns div{
+    color: #000000;
+    margin-top: 3px;
+    margin-left: 1px;
+
+}
+
+.albuns p{
+    color: #000000;
+    font-size: 1.5rem;
+    margin-top: 3px;
+    margin-left: 1px;
+
+}
+
+.albuns .texto1, .albuns .titulo2, .albuns .titulo3 .albuns .titulo4 {
+    margin-left: 20px;
 }

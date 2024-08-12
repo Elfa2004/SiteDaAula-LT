@@ -117,17 +117,11 @@ html::-webkit-scrollbar-thumb{
     color: var(--main-color);
 }
 
-.hr{
-    
-    border-bottom:solid 0.1px;
-    color: rgb(54, 46, 46);
-    margin-top: 15px;
 
-}
 .C-title{
     color: #000000;
-    margin-left: 5rem;
-    margin-top: 80rem;
+    margin-left: 0rem;
+    margin-top: 20rem;
 
 }
 .C-title h1{
@@ -136,8 +130,9 @@ html::-webkit-scrollbar-thumb{
     font-size: 4.8rem;
 }
 .title p{
+    margin-bottom: 20px;
+    display: block;
     color: #000000;
-    margin-top: 12rem;
     font-size: medium;
 
 }
@@ -147,7 +142,7 @@ body {
     padding: 0;
     height: 1000hv;
     font-family: Arial, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -155,14 +150,7 @@ body {
     flex-direction: column;
 
 }
-#background {
-    background-size:cover;
-    background-image: url('BL.jpg');
-    background-position: 100;
-    background-size: cover;
-    height: 1200px;
-    width: 1500px;
-}
+
 .BotãoDeAlbum{
     margin-top: 10rem;
     background-color: #171616;
@@ -176,6 +164,36 @@ body {
     cursor: pointer;
     
 }
-.BotãoDeAlbum:hover{
-    background-color: #0B245B;
+
+
+.hr{
+    
+    border-bottom:solid 1 px;
+    color: rgb(134, 117, 117);
+    margin-top: 15px;
+
+}
+
+.table {
+    color: #000000;
+    margin-left: 0;
+    margin-top: 10rem;
+}
+
+.table td {
+    color: #000000;
+    padding: 1rem;
+    font-size: 1.6rem;
+}
+
+.table th {
+    color: #000000;
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: var(--main-color);
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;
 }
